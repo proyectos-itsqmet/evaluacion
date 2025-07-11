@@ -1,0 +1,15 @@
+.seccion2 {
+  display: grid;
+  column-gap: 10px;
+  row-gap: 10px;
+  height: 250;
+}
+.titulo {
+  text-shadow: rgba(0, 0, 0, 0.5);
+  font-family: "Times New Roman", serif;
+  font-weight: bold;
+}
+.texto {
+  text-shadow: rgba(0, 0, 0, 0.5);
+  font-family: "Times New Roman", serif;
+}
