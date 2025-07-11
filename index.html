@@ -198,17 +198,33 @@
           </li>
           <li>
             <a href="#" class="hover:underline me-4 md:me-6">Contacto</a>
-          </li>
-          <li>
-            <a
-              href="https://cookpad.com/ec/buscar/comida"
-              class="hover:underline"
-              >Nuestra Pagina</a
-            >
-          </li>
-        </ul>
-      </div>
-    </footer>
-  </body>
+
+        </li>
+        <li>
+            <a href="https://cookpad.com/ec/buscar/comida" class="hover:underline">Nuestra Pagina</a>
+        </li>
+    </ul>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d69904.28206331296!2d-78.56268869887256!3d-0.24892944225930794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d59a15d5a450b5%3A0x2090877539cb249a!2sDelicias%20Cuencanas!5e1!3m2!1ses!2sec!4v1752194004583!5m2!1ses!2sec" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+</footer>
   <script src="/src/assets/js/ejercicio_4_3.js"></script>
+ <script>
+    let estudiantes = [
+{nombre: "Juan", nota: 8.5},
+{nombre: "Gustavo", nota: 9},
+{nombre: "Margot", nota: 8},
+{nombre: "Luz", nota: 10}
+
+];
+let sumaNotas = 0;
+for (let i = 0; i < estudiantes.length; i++) {
+    sumaNotas += estudiantes[i].nota;
+    
+}
+
+let promedio = sumaNotas/estudiantes.length;
+console.log("El promedio general es: "  + promedio.toFixed(2));
+  </script>
+  </body>
+
 </html>
