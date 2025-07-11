@@ -12,4 +12,6 @@
 .texto {
   text-shadow: rgba(0, 0, 0, 0.5);
   font-family: "Times New Roman", serif;
+  text-align: center;
 }
+
